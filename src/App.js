@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Countdown from './component/Countdown'
+import Countdown from './components/Countdown'
 
 function App() {
   return (

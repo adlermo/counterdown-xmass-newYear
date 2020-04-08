@@ -9,7 +9,7 @@ const date = new Date()
 // função corrige os dias após o natal para o próximo ano
 const xmassYear = () => {
     // 11 é o número equivalente à Dezembro
-    if (date.getMonth() == '11' && date.getDay() >= 25){
+    if (date.getMonth() === '11' && date.getDay() >= 25){
         return 1 + date.getFullYear()
     } else {
         return date.getFullYear()
